@@ -291,6 +291,106 @@ export const TOOLS: ToolMeta[] = [
     category: "salaire",
     availableIn: ["ch"],
   },
+  {
+    slug: "calcul-salaire-brut-net-quebec",
+    title: "Salaire Brut → Net Québec",
+    shortTitle: "Salaire Brut → Net",
+    description:
+      "Convertissez votre salaire brut en net : RRQ, AE, RQAP, FSS, impôt fédéral + Québec 2026",
+    h1: "Calcul Salaire Brut Net Québec 2026 — RRQ, AE, RQAP & Impôt",
+    category: "salaire",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "simulateur-impot-revenu-quebec",
+    title: "Impôt sur le Revenu Québec",
+    shortTitle: "Impôt Revenu",
+    description:
+      "Impôt fédéral + provincial Québec 2026 : 5 tranches fédérales, 4 tranches QC, abattement 16,5 %",
+    h1: "Simulateur Impôt sur le Revenu Québec 2026 — Fédéral + Provincial",
+    category: "impot",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "simulateur-pret-hypothecaire-quebec",
+    title: "Prêt Hypothécaire Québec",
+    shortTitle: "Prêt Hypothécaire",
+    description:
+      "Mensualité, SCHL, stress test max(taux+2 %, 5,25 %), ABD ≤ 39 %, ATD ≤ 44 % — barèmes 2026",
+    h1: "Simulateur Prêt Hypothécaire Québec 2026 — Mensualité, SCHL & Stress Test",
+    category: "immobilier",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "calculateur-retraite-quebec",
+    title: "Calculateur Retraite Québec",
+    shortTitle: "Retraite",
+    description:
+      "RRQ 1 433 $/mois max, PSV 734 $, SRG, REER plafond 32 490 $, CELI 7 000 $ — projection 2026",
+    h1: "Calculateur Retraite Québec 2026 — RRQ, PSV, SRG, REER & CELI",
+    category: "retraite",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "simulateur-epargne-quebec",
+    title: "Simulateur Épargne Québec",
+    shortTitle: "Épargne",
+    description:
+      "REER vs CELI 2026 : TMI actuel vs retraite, intérêts composés, économie d'impôt",
+    h1: "Simulateur Épargne Québec 2026 — REER vs CELI",
+    category: "epargne",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "calcul-plus-value-immobiliere-quebec",
+    title: "Plus-Value Immobilière Québec",
+    shortTitle: "Plus-Value Immobilière",
+    description:
+      "Gain en capital 2026 : résidence principale exonérée, locatif 50 % inclusion, taux combiné fédéral + QC",
+    h1: "Calcul Plus-Value Immobilière Québec 2026 — Gain en Capital",
+    category: "immobilier",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "simulateur-travailleur-autonome-quebec",
+    title: "Travailleur Autonome Québec",
+    shortTitle: "Travailleur Autonome",
+    description:
+      "Double RRQ 12,8 % + 8 %, RQAP 0,878 %, FSS, TPS 5 % + TVQ 9,975 %, revenu net 2026",
+    h1: "Simulateur Travailleur Autonome Québec 2026 — RRQ Double & Net",
+    category: "salaire",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "calcul-frais-kilometriques-quebec",
+    title: "Frais Kilométriques Québec",
+    shortTitle: "Frais Kilométriques",
+    description:
+      "Barème ARC 2026 : 0,72 $/km les 5 000 premiers km, 0,66 $/km au-delà (identique fédéral/QC)",
+    h1: "Calcul Frais Kilométriques Québec 2026 — Barème ARC Officiel",
+    category: "autre",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "calcul-droits-mutation-quebec",
+    title: "Droits de Mutation Québec",
+    shortTitle: "Taxe de Bienvenue",
+    description:
+      "Taxe de bienvenue 2026 : 0,5 % / 1 % / 1,5 % avec paliers majorés Montréal, Québec, Laval",
+    h1: "Calcul Droits de Mutation Québec 2026 — Taxe de Bienvenue",
+    category: "immobilier",
+    availableIn: ["ca"],
+  },
+  {
+    slug: "simulateur-dividendes-salaire-quebec",
+    title: "Dividendes vs Salaire Québec",
+    shortTitle: "Dividendes vs Salaire",
+    description:
+      "SPCC Québec 2026 : dividende ordinaire (15 %) / déterminé (38 %) vs salaire, intégration corpo + perso",
+    h1: "Simulateur Dividendes vs Salaire Québec 2026 — Rémunération SPCC",
+    category: "salaire",
+    availableIn: ["ca"],
+  },
 ];
 
 export const TOOLS_BY_SLUG = Object.fromEntries(

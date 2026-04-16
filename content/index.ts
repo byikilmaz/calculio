@@ -29,6 +29,16 @@ import { content as chIndependant } from "./ch/simulateur-independant-suisse/met
 import { content as chSuccession } from "./ch/calcul-droits-succession-suisse/meta";
 import { content as chFraisNotaire } from "./ch/calcul-frais-notaire-suisse/meta";
 import { content as chDividendesSalaire } from "./ch/simulateur-dividendes-salaire-suisse/meta";
+import { content as caSalaireBrutNet } from "./ca/calcul-salaire-brut-net-quebec/meta";
+import { content as caImpotRevenu } from "./ca/simulateur-impot-revenu-quebec/meta";
+import { content as caPretHypothecaire } from "./ca/simulateur-pret-hypothecaire-quebec/meta";
+import { content as caRetraite } from "./ca/calculateur-retraite-quebec/meta";
+import { content as caEpargne } from "./ca/simulateur-epargne-quebec/meta";
+import { content as caPlusValue } from "./ca/calcul-plus-value-immobiliere-quebec/meta";
+import { content as caTravailleurAutonome } from "./ca/simulateur-travailleur-autonome-quebec/meta";
+import { content as caFraisKm } from "./ca/calcul-frais-kilometriques-quebec/meta";
+import { content as caDroitsMutation } from "./ca/calcul-droits-mutation-quebec/meta";
+import { content as caDividendesSalaire } from "./ca/simulateur-dividendes-salaire-quebec/meta";
 
 const REGISTRY: Partial<Record<CountryCode, Record<string, ToolContent>>> = {
   fr: {
@@ -66,6 +76,18 @@ const REGISTRY: Partial<Record<CountryCode, Record<string, ToolContent>>> = {
     "calcul-droits-succession-suisse": chSuccession,
     "calcul-frais-notaire-suisse": chFraisNotaire,
     "simulateur-dividendes-salaire-suisse": chDividendesSalaire,
+  },
+  ca: {
+    "calcul-salaire-brut-net-quebec": caSalaireBrutNet,
+    "simulateur-impot-revenu-quebec": caImpotRevenu,
+    "simulateur-pret-hypothecaire-quebec": caPretHypothecaire,
+    "calculateur-retraite-quebec": caRetraite,
+    "simulateur-epargne-quebec": caEpargne,
+    "calcul-plus-value-immobiliere-quebec": caPlusValue,
+    "simulateur-travailleur-autonome-quebec": caTravailleurAutonome,
+    "calcul-frais-kilometriques-quebec": caFraisKm,
+    "calcul-droits-mutation-quebec": caDroitsMutation,
+    "simulateur-dividendes-salaire-quebec": caDividendesSalaire,
   },
 };
 

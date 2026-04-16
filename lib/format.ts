@@ -24,6 +24,19 @@ export function formatCHFPrecise(value: number): string {
   return formatCHF(value, { maximumFractionDigits: 2, minimumFractionDigits: 2 });
 }
 
+export function formatCAD(value: number, options?: Intl.NumberFormatOptions): string {
+  return new Intl.NumberFormat("fr-CA", {
+    style: "currency",
+    currency: "CAD",
+    maximumFractionDigits: 0,
+    ...options,
+  }).format(value);
+}
+
+export function formatCADPrecise(value: number): string {
+  return formatCAD(value, { maximumFractionDigits: 2, minimumFractionDigits: 2 });
+}
+
 export function formatPercent(value: number, digits = 1): string {
   return new Intl.NumberFormat("fr-FR", {
     style: "percent",
