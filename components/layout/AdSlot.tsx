@@ -18,18 +18,7 @@ export function AdSlot({ placement, className }: AdSlotProps) {
   const adSlot = process.env[`NEXT_PUBLIC_ADSENSE_SLOT_${placement.toUpperCase()}`];
 
   if (!adClient || !adSlot) {
-    return (
-      <div
-        className={cn(
-          "flex items-center justify-center rounded-md border border-dashed border-slate-200 bg-slate-50 text-xs text-slate-400",
-          heights[placement],
-          className,
-        )}
-        aria-hidden="true"
-      >
-        Publicité ({placement})
-      </div>
-    );
+    return null;
   }
 
   return (

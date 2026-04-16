@@ -34,5 +34,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  for (const path of ["mentions-legales", "confidentialite", "sources"]) {
+    entries.push({
+      url: `${BASE_URL}/${path}`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    });
+  }
+
   return entries;
 }
