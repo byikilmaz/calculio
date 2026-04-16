@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Calculio.net
 
-## Getting Started
+Pan-francophone financial calculator platform. Next.js 16 + React 19 + Tailwind 4.
 
-First, run the development server:
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/[country]/[tool]/page.tsx` — dynamic tool pages (SSG)
+- `lib/tax-rates/` — per-country tax brackets & rates (update annually)
+- `lib/calculators/` — pure calculation logic
+- `lib/tools.ts` — tool registry (slug, title, availability)
+- `components/calculators/` — one client component per calculator
+- `components/calculators/registry.tsx` — wires slug → component
+- `content/[country]/[tool]/meta.ts` — SEO, explanation body, FAQ
+- `content/index.ts` — content registry
 
-## Learn More
+## Adding a new tool
 
-To learn more about Next.js, take a look at the following resources:
+1. Add entry to `lib/tools.ts` (slug, title, category, `availableIn`)
+2. Create calculator component in `components/calculators/{Name}.tsx`
+3. Register in `components/calculators/registry.tsx`
+4. Add SEO content in `content/{country}/{slug}/meta.ts`
+5. Register in `content/index.ts`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Coolify (Docker). Dockerfile included with multi-stage build; `output: "standalone"` in `next.config.ts`.
 
-## Deploy on Vercel
+### Required env vars
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See `.env.example`:
+- `NEXT_PUBLIC_ADSENSE_CLIENT` — AdSense publisher ID
+- `NEXT_PUBLIC_ADSENSE_SLOT_*` — ad slot IDs per placement
+- `NEXT_PUBLIC_GA_ID` — Google Analytics 4 measurement ID
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tax rate updates
+
+Update January of each year:
+- `lib/tax-rates/fr.ts` — French IR brackets, PASS, cotisations
+- (future) `be.ts`, `ch.ts`, `ca.ts`
+
+Verify against:
+- FR: impots.gouv.fr, urssaf.fr, agirc-arrco.fr
+- BE: finances.belgique.be
+- CH: estv.admin.ch
+- CA: canada.ca/fr/agence-revenu
