@@ -14,6 +14,11 @@ import { content as beIPP } from "./be/calcul-impot-personnes-physiques/meta";
 import { content as bePretHypothecaire } from "./be/simulateur-pret-hypothecaire/meta";
 import { content as beSuccession } from "./be/calcul-droits-succession-belgique/meta";
 import { content as beFraisNotaire } from "./be/calcul-frais-notaire/meta";
+import { content as beIndependant } from "./be/simulateur-independant-belgique/meta";
+import { content as bePension } from "./be/calculateur-pension-belgique/meta";
+import { content as beEpargne } from "./be/simulateur-epargne-belgique/meta";
+import { content as beFraisKm } from "./be/calcul-frais-kilometriques-belgique/meta";
+import { content as beDividendesRem } from "./be/simulateur-dividendes-remuneration/meta";
 
 const REGISTRY: Partial<Record<CountryCode, Record<string, ToolContent>>> = {
   fr: {
@@ -34,6 +39,11 @@ const REGISTRY: Partial<Record<CountryCode, Record<string, ToolContent>>> = {
     "simulateur-pret-hypothecaire": bePretHypothecaire,
     "calcul-droits-succession-belgique": beSuccession,
     "calcul-frais-notaire": beFraisNotaire,
+    "simulateur-independant-belgique": beIndependant,
+    "calculateur-pension-belgique": bePension,
+    "simulateur-epargne-belgique": beEpargne,
+    "calcul-frais-kilometriques-belgique": beFraisKm,
+    "simulateur-dividendes-remuneration": beDividendesRem,
   },
 };
 

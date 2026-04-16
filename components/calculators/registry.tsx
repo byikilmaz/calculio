@@ -1,13 +1,18 @@
 import type { CountryCode } from "@/lib/types";
 import { AutoEntrepreneurCalculator } from "./AutoEntrepreneur";
+import { DividendesRemunerationBECalculator } from "./DividendesRemunerationBE";
 import { DividendesSalaireCalculator } from "./DividendesSalaire";
 import { DroitsSuccessionCalculator } from "./DroitsSuccession";
 import { DroitsSuccessionBECalculator } from "./DroitsSuccessionBE";
 import { EpargneCalculator } from "./Epargne";
+import { EpargneBECalculator } from "./EpargneBE";
 import { FraisKilometriquesCalculator } from "./FraisKilometriques";
+import { FraisKilometriquesBECalculator } from "./FraisKilometriquesBE";
 import { FraisNotaireBECalculator } from "./FraisNotaireBE";
 import { ImpotPersonnesPhysiquesBECalculator } from "./ImpotPersonnesPhysiquesBE";
 import { ImpotRevenuCalculator } from "./ImpotRevenu";
+import { IndependantBECalculator } from "./IndependantBE";
+import { PensionBECalculator } from "./PensionBE";
 import { PlusValueImmobiliereCalculator } from "./PlusValueImmobiliere";
 import { PretHypothecaireBECalculator } from "./PretHypothecaireBE";
 import { PretImmobilierCalculator } from "./PretImmobilier";
@@ -40,6 +45,15 @@ const REGISTRY: Partial<
       <DroitsSuccessionBECalculator />
     ),
     "calcul-frais-notaire": () => <FraisNotaireBECalculator />,
+    "simulateur-independant-belgique": () => <IndependantBECalculator />,
+    "calculateur-pension-belgique": () => <PensionBECalculator />,
+    "simulateur-epargne-belgique": () => <EpargneBECalculator />,
+    "calcul-frais-kilometriques-belgique": () => (
+      <FraisKilometriquesBECalculator />
+    ),
+    "simulateur-dividendes-remuneration": () => (
+      <DividendesRemunerationBECalculator />
+    ),
   },
 };
 

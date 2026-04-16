@@ -141,6 +141,56 @@ export const TOOLS: ToolMeta[] = [
     category: "immobilier",
     availableIn: ["be"],
   },
+  {
+    slug: "simulateur-independant-belgique",
+    title: "Simulateur Indépendant Belgique",
+    shortTitle: "Indépendant Belgique",
+    description:
+      "Cotisations INASTI 2026 et revenu net d'indépendant avec barème IPP",
+    h1: "Simulateur Indépendant Belgique 2026 — Cotisations INASTI & Net",
+    category: "salaire",
+    availableIn: ["be"],
+  },
+  {
+    slug: "calculateur-pension-belgique",
+    title: "Calculateur Pension Belgique",
+    shortTitle: "Pension Belgique",
+    description:
+      "1er pilier légal, 2ᵉ pilier assurance groupe, 3ᵉ pilier épargne-pension 2026",
+    h1: "Calculateur Pension Belgique 2026 — 1er / 2ᵉ / 3ᵉ Pilier",
+    category: "retraite",
+    availableIn: ["be"],
+  },
+  {
+    slug: "simulateur-epargne-belgique",
+    title: "Simulateur Épargne Belgique",
+    shortTitle: "Épargne Belgique",
+    description:
+      "Intérêts composés, précompte mobilier 30 % et exonération livret réglementé 2026",
+    h1: "Simulateur Épargne Belgique 2026 — Intérêts Composés & Précompte",
+    category: "epargne",
+    availableIn: ["be"],
+  },
+  {
+    slug: "calcul-frais-kilometriques-belgique",
+    title: "Frais Kilométriques Belgique",
+    shortTitle: "Frais Kilométriques",
+    description:
+      "Barème 2026 : 0,4246 €/km pro, 0,15 €/km IPP, 0,35 €/km vélo",
+    h1: "Calcul Frais Kilométriques Belgique 2026 — Barème Officiel",
+    category: "autre",
+    availableIn: ["be"],
+  },
+  {
+    slug: "simulateur-dividendes-remuneration",
+    title: "Dividendes vs Rémunération SRL/SA",
+    shortTitle: "Dividendes vs Rémunération",
+    description:
+      "Arbitrez salaire dirigeant vs dividende : IS PME 20 %, VVPR-bis 15 %, INASTI",
+    h1: "Simulateur Dividendes vs Rémunération SRL/SA — Belgique 2026",
+    category: "salaire",
+    availableIn: ["be"],
+  },
 ];
 
 export const TOOLS_BY_SLUG = Object.fromEntries(
