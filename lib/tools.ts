@@ -191,6 +191,106 @@ export const TOOLS: ToolMeta[] = [
     category: "salaire",
     availableIn: ["be"],
   },
+  {
+    slug: "calcul-salaire-brut-net-suisse",
+    title: "Salaire Brut → Net Suisse",
+    shortTitle: "Salaire Brut → Net",
+    description:
+      "Convertissez votre salaire brut en net : AVS/AI/APG, AC, LPP, IFD et impôt cantonal 2026",
+    h1: "Calcul Salaire Brut Net Suisse 2026 — AVS, LPP, IFD & Cantonal",
+    category: "salaire",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "simulateur-impot-revenu-suisse",
+    title: "Impôt sur le Revenu Suisse",
+    shortTitle: "Impôt Revenu",
+    description:
+      "IFD + impôt cantonal et communal 2026 pour les 7 cantons romands (VD, GE, VS, FR, NE, JU, BE)",
+    h1: "Simulateur Impôt sur le Revenu Suisse 2026 — IFD & Cantonal",
+    category: "impot",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "simulateur-pret-hypothecaire-suisse",
+    title: "Prêt Hypothécaire Suisse",
+    shortTitle: "Prêt Hypothécaire",
+    description:
+      "Mensualité, fonds propres 20 %/10 % durs, charges théoriques ≤ 33 % et amortissement 2ᵉ rang",
+    h1: "Simulateur Prêt Hypothécaire Suisse 2026 — Mensualité & Charges",
+    category: "immobilier",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "calculateur-retraite-suisse",
+    title: "Calculateur Retraite Suisse",
+    shortTitle: "Retraite",
+    description:
+      "AVS rente max 2 450 CHF, capital LPP projeté et 3ᵉ pilier A 7 258 CHF 2026",
+    h1: "Calculateur Retraite Suisse 2026 — AVS, LPP & 3e Pilier",
+    category: "retraite",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "simulateur-epargne-suisse",
+    title: "Simulateur Épargne Suisse",
+    shortTitle: "Épargne",
+    description:
+      "Livret vs 3ᵉ pilier A déductible : intérêts composés et économie fiscale 2026",
+    h1: "Simulateur Épargne Suisse 2026 — Livret & 3ᵉ Pilier A",
+    category: "epargne",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "calcul-plus-value-immobiliere-suisse",
+    title: "Plus-Value Immobilière Suisse",
+    shortTitle: "Plus-Value Immobilière",
+    description:
+      "Impôt sur les gains immobiliers 2026 : barème dégressif cantonal et différé de remploi",
+    h1: "Calcul Plus-Value Immobilière Suisse 2026 — IGI Cantonal",
+    category: "immobilier",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "simulateur-independant-suisse",
+    title: "Simulateur Indépendant Suisse",
+    shortTitle: "Indépendant",
+    description:
+      "AVS 10 % sur bénéfice, absence d'AC, 3ᵉ pilier A renforcé 36 288 CHF et IFD 2026",
+    h1: "Simulateur Indépendant Suisse 2026 — AVS 10 % & 3a Renforcé",
+    category: "salaire",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "calcul-droits-succession-suisse",
+    title: "Droits de Succession Suisse",
+    shortTitle: "Droits de Succession",
+    description:
+      "100 % cantonal : conjoint exonéré partout, barèmes VD, GE, VS, FR, NE, JU, BE 2026",
+    h1: "Droits de Succession Suisse 2026 — 7 Cantons Romands",
+    category: "autre",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "calcul-frais-notaire-suisse",
+    title: "Frais de Notaire Suisse",
+    shortTitle: "Frais de Notaire",
+    description:
+      "Droits de mutation cantonaux, émoluments notaire, registre foncier et TVA 8,1 % 2026",
+    h1: "Calcul Frais de Notaire Suisse 2026 — Achat Immobilier",
+    category: "immobilier",
+    availableIn: ["ch"],
+  },
+  {
+    slug: "simulateur-dividendes-salaire-suisse",
+    title: "Dividendes vs Salaire Suisse",
+    shortTitle: "Dividendes vs Salaire",
+    description:
+      "Arbitrez salaire vs dividende dirigeant SA/Sàrl : IS cantonal et taxation partielle 70/50 %",
+    h1: "Simulateur Dividendes vs Salaire Suisse 2026 — SA / Sàrl",
+    category: "salaire",
+    availableIn: ["ch"],
+  },
 ];
 
 export const TOOLS_BY_SLUG = Object.fromEntries(

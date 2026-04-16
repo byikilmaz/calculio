@@ -2,23 +2,33 @@ import type { CountryCode } from "@/lib/types";
 import { AutoEntrepreneurCalculator } from "./AutoEntrepreneur";
 import { DividendesRemunerationBECalculator } from "./DividendesRemunerationBE";
 import { DividendesSalaireCalculator } from "./DividendesSalaire";
+import { DividendesSalaireCHCalculator } from "./DividendesSalaireCH";
 import { DroitsSuccessionCalculator } from "./DroitsSuccession";
 import { DroitsSuccessionBECalculator } from "./DroitsSuccessionBE";
+import { DroitsSuccessionCHCalculator } from "./DroitsSuccessionCH";
 import { EpargneCalculator } from "./Epargne";
 import { EpargneBECalculator } from "./EpargneBE";
+import { EpargneCHCalculator } from "./EpargneCH";
 import { FraisKilometriquesCalculator } from "./FraisKilometriques";
 import { FraisKilometriquesBECalculator } from "./FraisKilometriquesBE";
 import { FraisNotaireBECalculator } from "./FraisNotaireBE";
+import { FraisNotaireCHCalculator } from "./FraisNotaireCH";
 import { ImpotPersonnesPhysiquesBECalculator } from "./ImpotPersonnesPhysiquesBE";
 import { ImpotRevenuCalculator } from "./ImpotRevenu";
+import { ImpotRevenuCHCalculator } from "./ImpotRevenuCH";
 import { IndependantBECalculator } from "./IndependantBE";
+import { IndependantCHCalculator } from "./IndependantCH";
 import { PensionBECalculator } from "./PensionBE";
 import { PlusValueImmobiliereCalculator } from "./PlusValueImmobiliere";
+import { PlusValueImmoCHCalculator } from "./PlusValueImmobiliereCH";
 import { PretHypothecaireBECalculator } from "./PretHypothecaireBE";
+import { PretHypothecaireCHCalculator } from "./PretHypothecaireCH";
 import { PretImmobilierCalculator } from "./PretImmobilier";
 import { RetraiteCalculator } from "./Retraite";
+import { RetraiteCHCalculator } from "./RetraiteCH";
 import { SalaireBrutNetCalculator } from "./SalaireBrutNet";
 import { SalaireBrutNetBECalculator } from "./SalaireBrutNetBE";
+import { SalaireBrutNetCHCalculator } from "./SalaireBrutNetCH";
 
 const REGISTRY: Partial<
   Record<CountryCode, Record<string, () => React.ReactElement>>
@@ -53,6 +63,22 @@ const REGISTRY: Partial<
     ),
     "simulateur-dividendes-remuneration": () => (
       <DividendesRemunerationBECalculator />
+    ),
+  },
+  ch: {
+    "calcul-salaire-brut-net-suisse": () => <SalaireBrutNetCHCalculator />,
+    "simulateur-impot-revenu-suisse": () => <ImpotRevenuCHCalculator />,
+    "simulateur-pret-hypothecaire-suisse": () => (
+      <PretHypothecaireCHCalculator />
+    ),
+    "calculateur-retraite-suisse": () => <RetraiteCHCalculator />,
+    "simulateur-epargne-suisse": () => <EpargneCHCalculator />,
+    "calcul-plus-value-immobiliere-suisse": () => <PlusValueImmoCHCalculator />,
+    "simulateur-independant-suisse": () => <IndependantCHCalculator />,
+    "calcul-droits-succession-suisse": () => <DroitsSuccessionCHCalculator />,
+    "calcul-frais-notaire-suisse": () => <FraisNotaireCHCalculator />,
+    "simulateur-dividendes-salaire-suisse": () => (
+      <DividendesSalaireCHCalculator />
     ),
   },
 };

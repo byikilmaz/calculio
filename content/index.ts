@@ -19,6 +19,16 @@ import { content as bePension } from "./be/calculateur-pension-belgique/meta";
 import { content as beEpargne } from "./be/simulateur-epargne-belgique/meta";
 import { content as beFraisKm } from "./be/calcul-frais-kilometriques-belgique/meta";
 import { content as beDividendesRem } from "./be/simulateur-dividendes-remuneration/meta";
+import { content as chSalaireBrutNet } from "./ch/calcul-salaire-brut-net-suisse/meta";
+import { content as chImpotRevenu } from "./ch/simulateur-impot-revenu-suisse/meta";
+import { content as chPretHypothecaire } from "./ch/simulateur-pret-hypothecaire-suisse/meta";
+import { content as chRetraite } from "./ch/calculateur-retraite-suisse/meta";
+import { content as chEpargne } from "./ch/simulateur-epargne-suisse/meta";
+import { content as chPlusValue } from "./ch/calcul-plus-value-immobiliere-suisse/meta";
+import { content as chIndependant } from "./ch/simulateur-independant-suisse/meta";
+import { content as chSuccession } from "./ch/calcul-droits-succession-suisse/meta";
+import { content as chFraisNotaire } from "./ch/calcul-frais-notaire-suisse/meta";
+import { content as chDividendesSalaire } from "./ch/simulateur-dividendes-salaire-suisse/meta";
 
 const REGISTRY: Partial<Record<CountryCode, Record<string, ToolContent>>> = {
   fr: {
@@ -44,6 +54,18 @@ const REGISTRY: Partial<Record<CountryCode, Record<string, ToolContent>>> = {
     "simulateur-epargne-belgique": beEpargne,
     "calcul-frais-kilometriques-belgique": beFraisKm,
     "simulateur-dividendes-remuneration": beDividendesRem,
+  },
+  ch: {
+    "calcul-salaire-brut-net-suisse": chSalaireBrutNet,
+    "simulateur-impot-revenu-suisse": chImpotRevenu,
+    "simulateur-pret-hypothecaire-suisse": chPretHypothecaire,
+    "calculateur-retraite-suisse": chRetraite,
+    "simulateur-epargne-suisse": chEpargne,
+    "calcul-plus-value-immobiliere-suisse": chPlusValue,
+    "simulateur-independant-suisse": chIndependant,
+    "calcul-droits-succession-suisse": chSuccession,
+    "calcul-frais-notaire-suisse": chFraisNotaire,
+    "simulateur-dividendes-salaire-suisse": chDividendesSalaire,
   },
 };
 
