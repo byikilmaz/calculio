@@ -91,6 +91,56 @@ export const TOOLS: ToolMeta[] = [
     category: "salaire",
     availableIn: ["fr"],
   },
+  {
+    slug: "calcul-salaire-brut-net-belgique",
+    title: "Salaire Brut → Net Belgique",
+    shortTitle: "Salaire Brut → Net",
+    description:
+      "Convertissez votre salaire brut en net selon les barèmes ONSS et IPP 2026",
+    h1: "Calcul Salaire Brut Net Belgique 2026 — ONSS & Précompte",
+    category: "salaire",
+    availableIn: ["be"],
+  },
+  {
+    slug: "calcul-impot-personnes-physiques",
+    title: "Impôt des Personnes Physiques (IPP)",
+    shortTitle: "Impôt IPP",
+    description:
+      "Calculez votre IPP 2026 avec barème fédéral, quotité exemptée et additionnels communaux",
+    h1: "Calcul Impôt des Personnes Physiques 2026 — Barème Officiel",
+    category: "impot",
+    availableIn: ["be"],
+  },
+  {
+    slug: "simulateur-pret-hypothecaire",
+    title: "Prêt Hypothécaire Belgique",
+    shortTitle: "Prêt Hypothécaire",
+    description:
+      "Mensualité, intérêts et assurance solde restant dû pour votre crédit hypothécaire",
+    h1: "Simulateur Prêt Hypothécaire 2026 — Mensualité & Coût Total",
+    category: "immobilier",
+    availableIn: ["be"],
+  },
+  {
+    slug: "calcul-droits-succession-belgique",
+    title: "Droits de Succession Belgique",
+    shortTitle: "Droits de Succession",
+    description:
+      "Wallonie, Bruxelles et Flandre — barèmes par région et lien de parenté",
+    h1: "Calcul Droits de Succession Belgique 2026 — 3 Régions",
+    category: "autre",
+    availableIn: ["be"],
+  },
+  {
+    slug: "calcul-frais-notaire",
+    title: "Frais de Notaire Belgique",
+    shortTitle: "Frais de Notaire",
+    description:
+      "Droits d'enregistrement, honoraires notaire et TVA pour votre achat immobilier",
+    h1: "Calcul Frais de Notaire Belgique 2026 — Achat Immobilier",
+    category: "immobilier",
+    availableIn: ["be"],
+  },
 ];
 
 export const TOOLS_BY_SLUG = Object.fromEntries(

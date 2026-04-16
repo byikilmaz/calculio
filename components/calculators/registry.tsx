@@ -2,13 +2,18 @@ import type { CountryCode } from "@/lib/types";
 import { AutoEntrepreneurCalculator } from "./AutoEntrepreneur";
 import { DividendesSalaireCalculator } from "./DividendesSalaire";
 import { DroitsSuccessionCalculator } from "./DroitsSuccession";
+import { DroitsSuccessionBECalculator } from "./DroitsSuccessionBE";
 import { EpargneCalculator } from "./Epargne";
 import { FraisKilometriquesCalculator } from "./FraisKilometriques";
+import { FraisNotaireBECalculator } from "./FraisNotaireBE";
+import { ImpotPersonnesPhysiquesBECalculator } from "./ImpotPersonnesPhysiquesBE";
 import { ImpotRevenuCalculator } from "./ImpotRevenu";
 import { PlusValueImmobiliereCalculator } from "./PlusValueImmobiliere";
+import { PretHypothecaireBECalculator } from "./PretHypothecaireBE";
 import { PretImmobilierCalculator } from "./PretImmobilier";
 import { RetraiteCalculator } from "./Retraite";
 import { SalaireBrutNetCalculator } from "./SalaireBrutNet";
+import { SalaireBrutNetBECalculator } from "./SalaireBrutNetBE";
 
 const REGISTRY: Partial<
   Record<CountryCode, Record<string, () => React.ReactElement>>
@@ -24,6 +29,17 @@ const REGISTRY: Partial<
     "simulateur-epargne": () => <EpargneCalculator />,
     "calcul-frais-kilometriques": () => <FraisKilometriquesCalculator />,
     "simulateur-dividendes-salaire": () => <DividendesSalaireCalculator />,
+  },
+  be: {
+    "calcul-salaire-brut-net-belgique": () => <SalaireBrutNetBECalculator />,
+    "calcul-impot-personnes-physiques": () => (
+      <ImpotPersonnesPhysiquesBECalculator />
+    ),
+    "simulateur-pret-hypothecaire": () => <PretHypothecaireBECalculator />,
+    "calcul-droits-succession-belgique": () => (
+      <DroitsSuccessionBECalculator />
+    ),
+    "calcul-frais-notaire": () => <FraisNotaireBECalculator />,
   },
 };
 
