@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Calculio",
   },
   description:
-    "Simulateurs fiscaux et financiers gratuits pour la France, la Belgique, la Suisse et le Canada. Barèmes officiels 2026.",
+    "Simulateurs fiscaux et financiers gratuits pour la France, la Belgique, la Suisse, le Canada et le Luxembourg. Barèmes officiels 2026.",
   openGraph: {
     siteName: "Calculio",
     locale: "fr_FR",

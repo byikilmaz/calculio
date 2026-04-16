@@ -39,6 +39,16 @@ import { content as caTravailleurAutonome } from "./ca/simulateur-travailleur-au
 import { content as caFraisKm } from "./ca/calcul-frais-kilometriques-quebec/meta";
 import { content as caDroitsMutation } from "./ca/calcul-droits-mutation-quebec/meta";
 import { content as caDividendesSalaire } from "./ca/simulateur-dividendes-salaire-quebec/meta";
+import { content as luSalaireBrutNet } from "./lu/calcul-salaire-brut-net-luxembourg/meta";
+import { content as luImpotRevenu } from "./lu/simulateur-impot-revenu-luxembourg/meta";
+import { content as luPretImmobilier } from "./lu/simulateur-pret-immobilier-luxembourg/meta";
+import { content as luPension } from "./lu/calculateur-pension-luxembourg/meta";
+import { content as luEpargne } from "./lu/simulateur-epargne-luxembourg/meta";
+import { content as luPlusValue } from "./lu/calcul-plus-value-immobiliere-luxembourg/meta";
+import { content as luIndependant } from "./lu/simulateur-independant-luxembourg/meta";
+import { content as luSuccession } from "./lu/calcul-droits-succession-luxembourg/meta";
+import { content as luFraisNotaire } from "./lu/calcul-frais-notaire-luxembourg/meta";
+import { content as luDividendesSalaire } from "./lu/simulateur-dividendes-salaire-luxembourg/meta";
 
 const REGISTRY: Partial<Record<CountryCode, Record<string, ToolContent>>> = {
   fr: {
@@ -88,6 +98,18 @@ const REGISTRY: Partial<Record<CountryCode, Record<string, ToolContent>>> = {
     "calcul-frais-kilometriques-quebec": caFraisKm,
     "calcul-droits-mutation-quebec": caDroitsMutation,
     "simulateur-dividendes-salaire-quebec": caDividendesSalaire,
+  },
+  lu: {
+    "calcul-salaire-brut-net-luxembourg": luSalaireBrutNet,
+    "simulateur-impot-revenu-luxembourg": luImpotRevenu,
+    "simulateur-pret-immobilier-luxembourg": luPretImmobilier,
+    "calculateur-pension-luxembourg": luPension,
+    "simulateur-epargne-luxembourg": luEpargne,
+    "calcul-plus-value-immobiliere-luxembourg": luPlusValue,
+    "simulateur-independant-luxembourg": luIndependant,
+    "calcul-droits-succession-luxembourg": luSuccession,
+    "calcul-frais-notaire-luxembourg": luFraisNotaire,
+    "simulateur-dividendes-salaire-luxembourg": luDividendesSalaire,
   },
 };
 

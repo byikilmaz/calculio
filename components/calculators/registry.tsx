@@ -39,6 +39,16 @@ import { SalaireBrutNetBECalculator } from "./SalaireBrutNetBE";
 import { SalaireBrutNetCACalculator } from "./SalaireBrutNetCA";
 import { SalaireBrutNetCHCalculator } from "./SalaireBrutNetCH";
 import { TravailleurAutonomeCACalculator } from "./TravailleurAutonomeCA";
+import { SalaireBrutNetLUCalculator } from "./SalaireBrutNetLU";
+import { ImpotRevenuLUCalculator } from "./ImpotRevenuLU";
+import { PretImmobilierLUCalculator } from "./PretImmobilierLU";
+import { PensionLUCalculator } from "./PensionLU";
+import { EpargneLUCalculator } from "./EpargneLU";
+import { PlusValueImmobiliereLUCalculator } from "./PlusValueImmobiliereLU";
+import { IndependantLUCalculator } from "./IndependantLU";
+import { DroitsSuccessionLUCalculator } from "./DroitsSuccessionLU";
+import { FraisNotaireLUCalculator } from "./FraisNotaireLU";
+import { DividendesSalaireLUCalculator } from "./DividendesSalaireLU";
 
 const REGISTRY: Partial<
   Record<CountryCode, Record<string, () => React.ReactElement>>
@@ -111,6 +121,26 @@ const REGISTRY: Partial<
     "calcul-droits-mutation-quebec": () => <DroitsMutationCACalculator />,
     "simulateur-dividendes-salaire-quebec": () => (
       <DividendesSalaireCACalculator />
+    ),
+  },
+  lu: {
+    "calcul-salaire-brut-net-luxembourg": () => <SalaireBrutNetLUCalculator />,
+    "simulateur-impot-revenu-luxembourg": () => <ImpotRevenuLUCalculator />,
+    "simulateur-pret-immobilier-luxembourg": () => (
+      <PretImmobilierLUCalculator />
+    ),
+    "calculateur-pension-luxembourg": () => <PensionLUCalculator />,
+    "simulateur-epargne-luxembourg": () => <EpargneLUCalculator />,
+    "calcul-plus-value-immobiliere-luxembourg": () => (
+      <PlusValueImmobiliereLUCalculator />
+    ),
+    "simulateur-independant-luxembourg": () => <IndependantLUCalculator />,
+    "calcul-droits-succession-luxembourg": () => (
+      <DroitsSuccessionLUCalculator />
+    ),
+    "calcul-frais-notaire-luxembourg": () => <FraisNotaireLUCalculator />,
+    "simulateur-dividendes-salaire-luxembourg": () => (
+      <DividendesSalaireLUCalculator />
     ),
   },
 };

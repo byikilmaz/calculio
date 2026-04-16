@@ -391,6 +391,106 @@ export const TOOLS: ToolMeta[] = [
     category: "salaire",
     availableIn: ["ca"],
   },
+  {
+    slug: "calcul-salaire-brut-net-luxembourg",
+    title: "Salaire Brut → Net Luxembourg",
+    shortTitle: "Salaire Brut → Net",
+    description:
+      "CCSS 12,45 %, barème IR 23 tranches, classes 1/1a/2 et fonds pour l'emploi 7 % — 2026",
+    h1: "Calcul Salaire Brut Net Luxembourg 2026 — CCSS & Barème IR",
+    category: "salaire",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "simulateur-impot-revenu-luxembourg",
+    title: "Impôt sur le Revenu Luxembourg",
+    shortTitle: "Impôt Revenu",
+    description:
+      "Barème 23 tranches 0-42 %, classes 1/1a/2, CIS/CIM, fonds emploi 7 %/9 % et dépendance 1,4 % — 2026",
+    h1: "Simulateur Impôt sur le Revenu Luxembourg 2026 — Barème 23 Tranches",
+    category: "impot",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "simulateur-pret-immobilier-luxembourg",
+    title: "Prêt Immobilier Luxembourg",
+    shortTitle: "Prêt Immobilier",
+    description:
+      "Mensualité, déduction intérêts (3000/2250/1500 €), crédit Bëllegen Akt 40 k€/pers. — 2026",
+    h1: "Simulateur Prêt Immobilier Luxembourg 2026 — Mensualité & Déduction",
+    category: "immobilier",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "calculateur-pension-luxembourg",
+    title: "Pension Luxembourg",
+    shortTitle: "Pension",
+    description:
+      "CNAP : formule proportionnelle 1,775 % × carrière + forfaitaire 23,75 % × SSM, plafond 9 628 €/mois — 2026",
+    h1: "Calculateur Pension Luxembourg 2026 — CNAP & 3ᵉ Pilier",
+    category: "retraite",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "simulateur-epargne-luxembourg",
+    title: "Simulateur Épargne Luxembourg",
+    shortTitle: "Épargne",
+    description:
+      "Livret classique vs 3ᵉ pilier art. 111bis LIR (3 200 €/an déductibles) — intérêts composés 2026",
+    h1: "Simulateur Épargne Luxembourg 2026 — Livret vs 3ᵉ Pilier",
+    category: "epargne",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "calcul-plus-value-immobiliere-luxembourg",
+    title: "Plus-Value Immobilière Luxembourg",
+    shortTitle: "Plus-Value Immobilière",
+    description:
+      "Spéculation < 2 ans plein barème, demi-global max 21 %, résidence principale exonérée, abattement 50 k€ — 2026",
+    h1: "Calcul Plus-Value Immobilière Luxembourg 2026 — Demi-Global 21 %",
+    category: "immobilier",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "simulateur-independant-luxembourg",
+    title: "Simulateur Indépendant Luxembourg",
+    shortTitle: "Indépendant",
+    description:
+      "Cotisations CCSS cumulées ~24 % (salarié + employeur), pas d'AC, barème IR + fonds emploi 2026",
+    h1: "Simulateur Indépendant Luxembourg 2026 — CCSS 24 % & IR",
+    category: "salaire",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "calcul-droits-succession-luxembourg",
+    title: "Droits de Succession Luxembourg",
+    shortTitle: "Droits de Succession",
+    description:
+      "Barèmes par lien (descendants 0 %, collatéraux 6-15 %, tiers 15 %), surcharges par seuil, part légale/extra-légale — 2026",
+    h1: "Calcul Droits de Succession Luxembourg 2026 — Barèmes & Surcharges",
+    category: "autre",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "calcul-frais-notaire-luxembourg",
+    title: "Frais de Notaire Luxembourg",
+    shortTitle: "Frais de Notaire",
+    description:
+      "Droits 7 %, surcharge Luxembourg-Ville +3 % > 300 k€, Bëllegen Akt 40 k€/pers., émoluments TVA 17 % — 2026",
+    h1: "Calcul Frais de Notaire Luxembourg 2026 — Droits & Bëllegen Akt",
+    category: "immobilier",
+    availableIn: ["lu"],
+  },
+  {
+    slug: "simulateur-dividendes-salaire-luxembourg",
+    title: "Dividendes vs Salaire Luxembourg",
+    shortTitle: "Dividendes vs Salaire",
+    description:
+      "Arbitrage Sàrl/SA : salaire (CCSS + IR) vs dividende (IS 24,94 % + demi-imposition + précompte 15 %) — 2026",
+    h1: "Simulateur Dividendes vs Salaire Luxembourg 2026 — Sàrl / SA",
+    category: "salaire",
+    availableIn: ["lu"],
+  },
 ];
 
 export const TOOLS_BY_SLUG = Object.fromEntries(

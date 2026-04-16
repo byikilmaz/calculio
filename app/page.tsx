@@ -19,7 +19,7 @@ export default function HomePage() {
         <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
           Calculez votre salaire net, impôt, prêt immobilier, retraite ou
           épargne en quelques secondes. Barèmes officiels France, Belgique,
-          Suisse et Canada.
+          Suisse, Canada et Luxembourg.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           {COUNTRY_CODES.map((code) => {

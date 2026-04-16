@@ -1,4 +1,4 @@
-export type CountryCode = "fr" | "be" | "ch" | "ca";
+export type CountryCode = "fr" | "be" | "ch" | "ca" | "lu";
 
 export interface Country {
   code: CountryCode;

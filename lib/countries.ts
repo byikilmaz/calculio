@@ -33,9 +33,17 @@ export const COUNTRIES: Record<CountryCode, Country> = {
     currencySymbol: "$",
     locale: "fr-CA",
   },
+  lu: {
+    code: "lu",
+    name: "Luxembourg",
+    flag: "🇱🇺",
+    currency: "EUR",
+    currencySymbol: "€",
+    locale: "fr-LU",
+  },
 };
 
-export const COUNTRY_CODES: CountryCode[] = ["fr", "be", "ch", "ca"];
+export const COUNTRY_CODES: CountryCode[] = ["fr", "be", "ch", "ca", "lu"];
 
 export function isCountryCode(value: string): value is CountryCode {
   return (COUNTRY_CODES as string[]).includes(value);
