@@ -2,9 +2,9 @@ import type { ToolContent } from "@/lib/types";
 
 export const content: ToolContent = {
   meta: {
-    title: "Dividendes vs Salaire 2025 | Calculio",
+    title: "Dividendes vs Salaire 2026 | Calculio",
     description:
-      "Simulateur gratuit SASU 2025 : comparez rémunération en salaire ou dividendes, avec cotisations, IS et PFU 30 %. Arbitrage optimal en 2 clics.",
+      "Simulateur gratuit SASU 2026 : comparez rémunération en salaire ou dividendes, avec cotisations, IS et PFU 30 %. Arbitrage optimal en 2 clics.",
   },
   h1: "Simulateur Dividendes vs Salaire — SASU / SARL",
   intro:
@@ -28,7 +28,7 @@ Le salaire d'un président de SASU est soumis aux **cotisations sociales** du r�
 Les dividendes sont distribués sur le **bénéfice après impôt sur les sociétés**. La société paie d'abord l'IS :
 
 - **15 %** jusqu'à 42 500 € de bénéfice (taux réduit PME)
-- **25 %** au-delà (taux normal 2025)
+- **25 %** au-delà (taux normal 2026)
 
 Le dividende brut est ensuite soumis au **Prélèvement Forfaitaire Unique (PFU)** de **30 %** (12,8 % d'IR + 17,2 % de prélèvements sociaux), appelé aussi **flat tax**. L'option pour le barème de l'IR reste possible avec abattement de 40 %, souvent favorable aux TMI basses.
 

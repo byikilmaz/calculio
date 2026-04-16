@@ -2,11 +2,11 @@ import type { ToolContent } from "@/lib/types";
 
 export const content: ToolContent = {
   meta: {
-    title: "Simulateur Retraite 2025 | Calculio",
+    title: "Simulateur Retraite 2026 | Calculio",
     description:
-      "Estimation gratuite de votre pension de retraite 2025 : régime général, complémentaire AGIRC-ARRCO, taux de remplacement et trimestres requis.",
+      "Estimation gratuite de votre pension de retraite 2026 : régime général, complémentaire AGIRC-ARRCO, taux de remplacement et trimestres requis.",
   },
-  h1: "Simulateur Retraite 2025 — Estimation Pension",
+  h1: "Simulateur Retraite 2026 — Estimation Pension",
   intro:
     "Obtenez une estimation indicative de votre pension de retraite mensuelle combinant régime général et complémentaire AGIRC-ARRCO, selon votre âge de départ et votre salaire.",
   explanation: {
@@ -19,7 +19,7 @@ Elle se calcule selon la formule :
 
 Pension = Salaire Annuel Moyen (SAM) × Taux × (trimestres validés / trimestres requis)
 
-Le **SAM** correspond à la moyenne des 25 meilleures années de salaire, revalorisées, **plafonnée au PASS** (47 100 € annuels en 2025). Le **taux plein** est de **50 %** et s'obtient lorsque vous avez validé le nombre de trimestres requis par votre génération (172 trimestres, soit 43 ans de cotisation pour les personnes nées à partir de 1965 depuis la réforme de 2023).
+Le **SAM** correspond à la moyenne des 25 meilleures années de salaire, revalorisées, **plafonnée au PASS** (48 060 € annuels en 2026). Le **taux plein** est de **50 %** et s'obtient lorsque vous avez validé le nombre de trimestres requis par votre génération (172 trimestres, soit 43 ans de cotisation pour les personnes nées à partir de 1965 depuis la réforme de 2023).
 
 Si vous partez sans tous vos trimestres avant l'âge d'annulation de la décote (67 ans), une **décote de 1,25 % par trimestre manquant** s'applique. À l'inverse, chaque trimestre au-delà du requis vous donne une **surcote de 1,25 %**.
 
@@ -43,12 +43,12 @@ Depuis la réforme de 2023, l'âge légal augmente progressivement de 62 à **64
   },
   faq: [
     {
-      question: "Combien de trimestres faut-il pour la retraite à taux plein en 2025 ?",
+      question: "Combien de trimestres faut-il pour la retraite à taux plein en 2026 ?",
       answer:
         "Pour les personnes nées à partir de 1965, il faut 172 trimestres validés (soit 43 ans de cotisation) pour bénéficier du taux plein de 50 % sur le régime général, depuis la réforme de 2023. Les générations antérieures ont des exigences progressivement plus basses.",
     },
     {
-      question: "À quel âge peut-on partir à la retraite en 2025 ?",
+      question: "À quel âge peut-on partir à la retraite en 2026 ?",
       answer:
         "L'âge légal augmente progressivement de 62 à 64 ans selon l'année de naissance (64 ans pour les personnes nées à partir de 1968). À 67 ans, vous obtenez automatiquement le taux plein quelle que soit votre durée de cotisation. Des départs anticipés existent pour carrières longues et incapacité permanente.",
     },

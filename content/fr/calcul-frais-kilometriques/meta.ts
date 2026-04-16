@@ -2,20 +2,20 @@ import type { ToolContent } from "@/lib/types";
 
 export const content: ToolContent = {
   meta: {
-    title: "Calcul Frais Kilométriques 2025 | Calculio",
+    title: "Calcul Frais Kilométriques 2026 | Calculio",
     description:
-      "Barème kilométrique 2025 officiel impots.gouv.fr : calcul gratuit des frais réels voiture (3 à 7 CV) pour votre déclaration d'impôt.",
+      "Barème kilométrique 2026 officiel impots.gouv.fr : calcul gratuit des frais réels voiture (3 à 7 CV) pour votre déclaration d'impôt.",
   },
-  h1: "Calcul Frais Kilométriques 2025 — Barème Officiel",
+  h1: "Calcul Frais Kilométriques 2026 — Barème Officiel",
   intro:
-    "Calculez vos frais de déplacement déductibles selon le barème kilométrique officiel 2025 publié par la DGFiP, pour votre déclaration d'impôt en frais réels.",
+    "Calculez vos frais de déplacement déductibles selon le barème kilométrique officiel 2026 publié par la DGFiP, pour votre déclaration d'impôt en frais réels.",
   explanation: {
-    title: "Comment utiliser le barème kilométrique 2025 ?",
+    title: "Comment utiliser le barème kilométrique 2026 ?",
     body: `Le **barème kilométrique** de l'administration fiscale permet aux salariés d'évaluer forfaitairement leurs frais de déplacement domicile-travail et leurs déplacements professionnels lorsqu'ils optent pour la déduction des **frais réels** plutôt que l'abattement forfaitaire de 10 %.
 
 Ce barème couvre l'ensemble des dépenses du véhicule : dépréciation, assurance, entretien, carburant, réparations. Il est publié chaque année au **Bulletin Officiel des Finances Publiques (BOFiP)** et utilisé pour la déclaration des revenus de l'année précédente.
 
-**Barème 2025 (pour les revenus 2024) — Voitures**
+**Barème 2026 (pour les revenus 2025) — Voitures**
 
 Le montant déductible est calculé selon deux coefficients A et B, appliqués au kilométrage parcouru (d) :
 
@@ -45,7 +45,7 @@ Pour déduire vos frais kilométriques en frais réels, vous devez :
 
 **Quand opter pour les frais réels ?**
 
-Calculez d'abord votre abattement forfaitaire de 10 % sur votre salaire net imposable (plafonné à 14 171 € en 2025). Si vos frais réels justifiés dépassent ce montant, l'option frais réels est avantageuse. Cela concerne principalement :
+Calculez d'abord votre abattement forfaitaire de 10 % sur votre salaire net imposable (plafonné à 14 555 € en 2026). Si vos frais réels justifiés dépassent ce montant, l'option frais réels est avantageuse. Cela concerne principalement :
 
 - Les salariés avec un long trajet domicile-travail (plus de 25 km / jour)
 - Les commerciaux, consultants, techniciens mobiles
@@ -57,7 +57,7 @@ En plus du barème kilométrique, vous pouvez déduire :
 
 - Les frais de péage et de stationnement liés aux déplacements professionnels
 - Les intérêts d'emprunt pour l'achat du véhicule au prorata d'utilisation professionnelle
-- Les repas hors domicile (forfait 2025 : 5,40 € par repas)
+- Les repas hors domicile (forfait 2026 : 5,45 € par repas)
 - Les frais de formation professionnelle
 - Les cotisations syndicales, vêtements de travail spécifiques, double résidence imposée
 
@@ -67,7 +67,7 @@ En plus du barème kilométrique, vous pouvez déduire :
     {
       question: "Quelle différence entre frais réels et déduction forfaitaire de 10 % ?",
       answer:
-        "La déduction forfaitaire de 10 % est automatiquement appliquée par l'administration sur votre salaire net imposable, plafonnée à 14 171 € en 2025. L'option frais réels vous permet de déduire vos dépenses réelles (barème kilométrique, repas, formation) si elles dépassent le forfait. Le choix se fait globalement pour chaque membre du foyer fiscal et pour l'année entière.",
+        "La déduction forfaitaire de 10 % est automatiquement appliquée par l'administration sur votre salaire net imposable, plafonnée à 14 555 € en 2026. L'option frais réels vous permet de déduire vos dépenses réelles (barème kilométrique, repas, formation) si elles dépassent le forfait. Le choix se fait globalement pour chaque membre du foyer fiscal et pour l'année entière.",
     },
     {
       question: "Comment trouver la puissance fiscale de ma voiture ?",

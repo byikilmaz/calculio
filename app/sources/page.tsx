@@ -14,7 +14,7 @@ export default function SourcesPage() {
         Sources officielles
       </h1>
       <p className="text-sm text-slate-500 mb-8">
-        Barèmes 2025 — mise à jour annuelle
+        Barèmes 2026 — mise à jour annuelle
       </p>
 
       <p className="text-slate-700 leading-relaxed mb-8">

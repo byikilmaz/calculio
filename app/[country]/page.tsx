@@ -20,8 +20,8 @@ export async function generateMetadata({
   if (!isCountryCode(country)) return {};
   const c = COUNTRIES[country];
   return {
-    title: `Simulateurs ${c.name} 2025`,
-    description: `Tous les simulateurs financiers et fiscaux pour ${c.name} — barème officiel 2025.`,
+    title: `Simulateurs ${c.name} 2026`,
+    description: `Tous les simulateurs financiers et fiscaux pour ${c.name} — barème officiel 2026.`,
   };
 }
 

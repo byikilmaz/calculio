@@ -2,15 +2,15 @@ import type { ToolContent } from "@/lib/types";
 
 export const content: ToolContent = {
   meta: {
-    title: "Simulateur Salaire Brut Net 2025 | Calculio",
+    title: "Simulateur Salaire Brut Net 2026 | Calculio",
     description:
-      "Convertissez votre salaire brut en net en quelques secondes. Barème 2025 officiel, cotisations sociales détaillées, net imposable inclus.",
+      "Convertissez votre salaire brut en net en quelques secondes. Barème 2026 officiel, cotisations sociales détaillées, net imposable inclus.",
   },
-  h1: "Simulateur Salaire Brut → Net 2025",
+  h1: "Simulateur Salaire Brut → Net 2026",
   intro:
-    "Calculez instantanément votre salaire net à partir du brut selon les taux de cotisations 2025. Résultat détaillé avec CSG, CRDS et retraite complémentaire.",
+    "Calculez instantanément votre salaire net à partir du brut selon les taux de cotisations 2026. Résultat détaillé avec CSG, CRDS et retraite complémentaire.",
   explanation: {
-    title: "Comment passer du brut au net en 2025 ?",
+    title: "Comment passer du brut au net en 2026 ?",
     body: `En France, le salaire net correspond au salaire brut diminué des cotisations sociales salariales (sécurité sociale, retraite complémentaire AGIRC-ARRCO, CSG et CRDS). Pour un salarié non-cadre, les charges salariales représentent environ 22 % du salaire brut. Pour un cadre, ce taux monte à 25 % en raison de la cotisation APEC et de la tranche T2 plus élevée.
 
 Les principales cotisations prélevées sur votre fiche de paie sont les suivantes :
@@ -23,7 +23,7 @@ Les principales cotisations prélevées sur votre fiche de paie sont les suivant
 - **CSG non déductible** : 2,40 % sur la même base.
 - **CRDS** : 0,50 % sur la même base.
 
-Le plafond annuel de la sécurité sociale (PASS) en 2025 est fixé à **47 100 €** (soit 3 925 € par mois).
+Le plafond annuel de la sécurité sociale (PASS) en 2026 est fixé à **48 060 €** (soit 4 005 € par mois).
 
 Le **net imposable** diffère du net à payer : il inclut la CSG non déductible et la CRDS. C'est ce montant qui est communiqué à l'administration fiscale pour le prélèvement à la source.`,
   },
@@ -51,7 +51,7 @@ Le **net imposable** diffère du net à payer : il inclut la CSG non déductible
     {
       question: "Les taux de cotisations sont-ils à jour ?",
       answer:
-        "Oui. Ce simulateur utilise les taux et plafonds officiels 2025 publiés par l'URSSAF et la Sécurité sociale. Les barèmes sont actualisés chaque année en janvier.",
+        "Oui. Ce simulateur utilise les taux et plafonds officiels 2026 publiés par l'URSSAF et la Sécurité sociale. Les barèmes sont actualisés chaque année en janvier.",
     },
   ],
   relatedSlugs: [

@@ -1,16 +1,17 @@
 import type { TaxBracket } from "../types";
 
-export const FR_YEAR = 2025;
+export const FR_YEAR = 2026;
 
-export const FR_PASS_MONTHLY = 3925;
+export const FR_PASS_MONTHLY = 4005;
 export const FR_PASS_ANNUAL = FR_PASS_MONTHLY * 12;
 
+// Barème IR 2026 applicable aux revenus 2025 (LF 2026, revalorisation +0,9 %)
 export const FR_INCOME_TAX_BRACKETS: TaxBracket[] = [
-  { min: 0, max: 11294, rate: 0.0 },
-  { min: 11294, max: 28797, rate: 0.11 },
-  { min: 28797, max: 82341, rate: 0.3 },
-  { min: 82341, max: 177106, rate: 0.41 },
-  { min: 177106, max: Number.POSITIVE_INFINITY, rate: 0.45 },
+  { min: 0, max: 11600, rate: 0.0 },
+  { min: 11600, max: 29579, rate: 0.11 },
+  { min: 29579, max: 84577, rate: 0.3 },
+  { min: 84577, max: 181917, rate: 0.41 },
+  { min: 181917, max: Number.POSITIVE_INFINITY, rate: 0.45 },
 ];
 
 export type EmployeeStatus = "non-cadre" | "cadre";
@@ -64,22 +65,23 @@ export const FR_CSG_CRDS_ABATTEMENT_CAP_MULTIPLE = 4;
 export const FR_PRELEVEMENT_FORFAITAIRE_UNIQUE_RATE = 0.3;
 export const FR_SOCIAL_CONTRIBUTIONS_ON_INVESTMENT = 0.172;
 
+// Abattement forfaitaire 10% frais professionnels - plafonds 2026 (revenus 2025)
 export const FR_DEFAULT_PROFESSIONAL_ABATTEMENT = 0.1;
-export const FR_PROFESSIONAL_ABATTEMENT_MIN = 495;
-export const FR_PROFESSIONAL_ABATTEMENT_MAX = 14171;
+export const FR_PROFESSIONAL_ABATTEMENT_MIN = 509;
+export const FR_PROFESSIONAL_ABATTEMENT_MAX = 14555;
 
-// Quotient familial (parts)
-export const FR_QUOTIENT_FAMILIAL_CAP = 1759; // plafonnement par demi-part (2025)
+// Quotient familial (parts) - plafonnement par demi-part 2026
+export const FR_QUOTIENT_FAMILIAL_CAP = 1807;
 
-// Micro-entreprise 2025 (URSSAF)
+// Micro-entreprise 2026 (URSSAF) - BNC libéral +1pt au 01/01/2026
 export const FR_MICRO_RATES = {
   ventesBIC: { cotisations: 0.123, vfl: 0.01, plafond: 188700, abattement: 0.71 },
   servicesBIC: { cotisations: 0.212, vfl: 0.017, plafond: 77700, abattement: 0.50 },
-  servicesBNC: { cotisations: 0.211, vfl: 0.022, plafond: 77700, abattement: 0.34 },
-  liberaleCIPAV: { cotisations: 0.212, vfl: 0.022, plafond: 77700, abattement: 0.34 },
+  servicesBNC: { cotisations: 0.256, vfl: 0.022, plafond: 77700, abattement: 0.34 },
+  liberaleCIPAV: { cotisations: 0.232, vfl: 0.022, plafond: 77700, abattement: 0.34 },
 } as const;
 
-// Succession - abattements (2025)
+// Succession - abattements (inchangés en 2026)
 export const FR_SUCCESSION_ABATTEMENTS = {
   enfant: 100000,
   conjoint: Number.POSITIVE_INFINITY, // exonéré
@@ -89,7 +91,7 @@ export const FR_SUCCESSION_ABATTEMENTS = {
   handicap: 159325, // cumulable
 } as const;
 
-// Succession - barème ligne directe (enfants, parents)
+// Succession - barème ligne directe (enfants, parents) - inchangé depuis 2011
 export const FR_SUCCESSION_BAREME_DIRECT: TaxBracket[] = [
   { min: 0, max: 8072, rate: 0.05 },
   { min: 8072, max: 12109, rate: 0.10 },
@@ -108,7 +110,7 @@ export const FR_SUCCESSION_BAREME_FRERES: TaxBracket[] = [
 export const FR_SUCCESSION_TAUX_NEVEU = 0.55;
 export const FR_SUCCESSION_TAUX_AUTRE = 0.60;
 
-// Plus-value immobilière 2025
+// Plus-value immobilière (taux et abattements inchangés en 2026)
 export const FR_PLUSVALUE_IR_RATE = 0.19;
 export const FR_PLUSVALUE_PS_RATE = 0.172;
 export const FR_PLUSVALUE_FRAIS_FORFAIT = 0.075; // 7.5% frais acquisition forfait
@@ -116,7 +118,7 @@ export const FR_PLUSVALUE_TRAVAUX_FORFAIT = 0.15; // 15% travaux forfait après 
 // Abattement IR: 6%/an de la 6e à la 21e année, 4% la 22e année, 0% avant
 // Abattement PS: 1.65%/an de la 6e à la 21e année, 1.6% la 22e année, 9%/an de la 23e à la 30e
 
-// Barème kilométrique 2025 (voitures, impots.gouv.fr)
+// Barème kilométrique 2026 (non revalorisé, identique à 2025 - impots.gouv.fr)
 export const FR_BAREME_KM_2025 = {
   "3cv": [
     { limit: 5000, coefA: 0.529, coefB: 0 },
@@ -145,7 +147,7 @@ export const FR_BAREME_KM_2025 = {
   ],
 } as const;
 
-// Impôt sur les sociétés 2025
+// Impôt sur les sociétés (taux inchangés en 2026)
 export const FR_IS_TAUX_REDUIT = 0.15; // jusqu'à 42 500 €
 export const FR_IS_TAUX_REDUIT_PLAFOND = 42500;
 export const FR_IS_TAUX_NORMAL = 0.25;

@@ -11,7 +11,7 @@ export default function HomePage() {
     <div className="mx-auto max-w-6xl px-4 sm:px-6">
       <section className="py-12 sm:py-16 text-center">
         <div className="inline-flex items-center gap-2 rounded-full bg-[var(--primary)]/5 px-3 py-1 text-xs font-medium text-[var(--primary)]">
-          Barème 2025 · Gratuit · Sans inscription
+          Barème 2026 · Gratuit · Sans inscription
         </div>
         <h1 className="mt-4 text-4xl sm:text-5xl font-bold tracking-tight text-slate-900">
           Simulateurs financiers pour la francophonie

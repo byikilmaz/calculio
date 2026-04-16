@@ -2,15 +2,15 @@ import type { ToolContent } from "@/lib/types";
 
 export const content: ToolContent = {
   meta: {
-    title: "Calcul Plus-Value Immobilière 2025 | Calculio",
+    title: "Calcul Plus-Value Immobilière 2026 | Calculio",
     description:
-      "Simulez gratuitement l'imposition de votre plus-value immobilière 2025 : IR 19%, prélèvements sociaux 17,2%, abattements pour durée de détention.",
+      "Simulez gratuitement l'imposition de votre plus-value immobilière 2026 : IR 19%, prélèvements sociaux 17,2%, abattements pour durée de détention.",
   },
-  h1: "Calcul Plus-Value Immobilière 2025",
+  h1: "Calcul Plus-Value Immobilière 2026",
   intro:
     "Estimez l'impôt dû sur la revente d'un bien immobilier selon la durée de détention, avec application des abattements IR et prélèvements sociaux et de la surtaxe éventuelle.",
   explanation: {
-    title: "Comment est imposée la plus-value immobilière en 2025 ?",
+    title: "Comment est imposée la plus-value immobilière en 2026 ?",
     body: `La **plus-value immobilière** est la différence entre le **prix de vente** d'un bien et son **prix d'acquisition corrigé**. Cette plus-value est soumise à deux impositions distinctes : l'**impôt sur le revenu (IR) à 19 %** et les **prélèvements sociaux (PS) à 17,2 %**, soit un total de **36,2 %** avant abattement.
 
 **Exonération totale : la résidence principale**
@@ -48,7 +48,7 @@ Une **surtaxe progressive** s'ajoute lorsque la plus-value imposable (après aba
   },
   faq: [
     {
-      question: "Quel est le taux d'imposition de la plus-value immobilière en 2025 ?",
+      question: "Quel est le taux d'imposition de la plus-value immobilière en 2026 ?",
       answer:
         "La plus-value nette (après abattements) est taxée à 19 % au titre de l'impôt sur le revenu et 17,2 % au titre des prélèvements sociaux, soit un total de 36,2 %. Une surtaxe de 2 % à 6 % s'ajoute si la plus-value imposable dépasse 50 000 €.",
     },

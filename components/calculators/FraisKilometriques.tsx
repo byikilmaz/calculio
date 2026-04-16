@@ -114,7 +114,7 @@ function ResultPanel({ result }: { result: FraisKmResult }) {
           <p className="text-slate-600">
             Pour un véhicule de {CV_LABELS[result.puissance]} avec{" "}
             {result.kilometrage.toLocaleString("fr-FR")} km parcourus (tranche{" "}
-            {result.trancheAppliquee}), les coefficients du barème 2025 sont A ={" "}
+            {result.trancheAppliquee}), les coefficients du barème 2026 sont A ={" "}
             {result.coefA}
             {result.coefB > 0 ? ` et B = ${result.coefB}` : ""}.
           </p>

@@ -2,11 +2,11 @@ import type { ToolContent } from "@/lib/types";
 
 export const content: ToolContent = {
   meta: {
-    title: "Simulateur Épargne 2025 | Calculio",
+    title: "Simulateur Épargne 2026 | Calculio",
     description:
-      "Calculez gratuitement la croissance de votre épargne 2025 avec intérêts composés : capital final, versements cumulés, intérêts et projection année par année.",
+      "Calculez gratuitement la croissance de votre épargne 2026 avec intérêts composés : capital final, versements cumulés, intérêts et projection année par année.",
   },
-  h1: "Simulateur Épargne & Intérêts Composés 2025",
+  h1: "Simulateur Épargne & Intérêts Composés 2026",
   intro:
     "Projetez la croissance de votre épargne mois après mois grâce aux intérêts composés. Résultat détaillé année par année, total versé et intérêts gagnés.",
   explanation: {
@@ -25,7 +25,7 @@ Le premier terme représente la croissance de votre capital initial, le second l
 
 L'impact du temps est exponentiel, pas linéaire. Un exemple concret : 200 € placés chaque mois à 5 % pendant 30 ans donnent environ **166 450 €**, dont **72 000 € de versements** et **94 450 € d'intérêts**. Le capital généré par les intérêts dépasse largement les versements à partir de la 20ᵉ année.
 
-**Les placements usuels en France en 2025**
+**Les placements usuels en France en 2026**
 
 - **Livret A** : 2,4 % net (plafond 22 950 €), garanti par l'État, sans fiscalité
 - **LDDS (Livret de Développement Durable et Solidaire)** : 2,4 % net (plafond 12 000 €)
@@ -57,7 +57,7 @@ Les livrets réglementés (Livret A, LDDS, LEP, Livret Jeune) sont **exonérés 
     {
       question: "Quel taux utiliser pour ma simulation ?",
       answer:
-        "Utilisez un taux réaliste selon votre placement : 2,4 % pour le Livret A 2025, 2,5-3,5 % pour l'assurance-vie en fonds euros, 5-7 % pour un portefeuille actions diversifié long terme (ex. ETF monde). Pour une projection prudente, retenez le taux net après fiscalité et après inflation (2 %).",
+        "Utilisez un taux réaliste selon votre placement : 2,4 % pour le Livret A 2026, 2,5-3,5 % pour l'assurance-vie en fonds euros, 5-7 % pour un portefeuille actions diversifié long terme (ex. ETF monde). Pour une projection prudente, retenez le taux net après fiscalité et après inflation (2 %).",
     },
     {
       question: "Faut-il privilégier versement unique ou versements mensuels ?",
@@ -65,7 +65,7 @@ Les livrets réglementés (Livret A, LDDS, LEP, Livret Jeune) sont **exonérés 
         "Les versements mensuels (Dollar Cost Averaging) permettent de lisser les points d'entrée et de réduire le risque de timing, particulièrement utile pour les actions. Un versement unique est optimal si vous avez un capital disponible et que le marché est attractif. La combinaison des deux est souvent recommandée.",
     },
     {
-      question: "Quels sont les placements sans risque en France en 2025 ?",
+      question: "Quels sont les placements sans risque en France en 2026 ?",
       answer:
         "Les livrets réglementés (Livret A, LDDS, LEP) sont garantis par l'État sans risque de perte en capital. Les fonds euros d'assurance-vie offrent une garantie du capital assurée par l'assureur. Les placements boursiers (PEA, actions, ETF) comportent un risque de perte en capital mais offrent historiquement le meilleur rendement long terme.",
     },

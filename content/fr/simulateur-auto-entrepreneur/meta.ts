@@ -2,29 +2,29 @@ import type { ToolContent } from "@/lib/types";
 
 export const content: ToolContent = {
   meta: {
-    title: "Simulateur Auto-Entrepreneur 2025 | Calculio",
+    title: "Simulateur Auto-Entrepreneur 2026 | Calculio",
     description:
-      "Calculez gratuitement vos cotisations URSSAF et revenu net micro-entreprise 2025 : vente, prestations BIC/BNC, versement libératoire IR.",
+      "Calculez gratuitement vos cotisations URSSAF et revenu net micro-entreprise 2026 : vente, prestations BIC/BNC, versement libératoire IR.",
   },
-  h1: "Simulateur Charges Auto-Entrepreneur 2025",
+  h1: "Simulateur Charges Auto-Entrepreneur 2026",
   intro:
     "Évaluez instantanément vos cotisations sociales, le versement libératoire de l'IR et votre revenu net de micro-entrepreneur selon votre type d'activité et votre chiffre d'affaires.",
   explanation: {
-    title: "Comment fonctionnent les charges micro-entreprise en 2025 ?",
+    title: "Comment fonctionnent les charges micro-entreprise en 2026 ?",
     body: `Le régime **micro-entreprise** (ex auto-entrepreneur) offre une fiscalité simplifiée calculée directement sur le chiffre d'affaires (CA), sans déduction de charges réelles. Les taux de cotisations sociales et les plafonds diffèrent selon la nature de l'activité.
 
-**Taux de cotisations sociales 2025 (URSSAF)**
+**Taux de cotisations sociales 2026 (URSSAF)**
 
 - **Vente de marchandises (BIC)** : **12,3 %** du CA — plafond **188 700 €**
 - **Prestations de services commerciaux / artisanaux (BIC)** : **21,2 %** du CA — plafond **77 700 €**
-- **Prestations de services (BNC)** : **21,1 %** du CA — plafond **77 700 €**
-- **Profession libérale CIPAV** : **21,2 %** du CA — plafond **77 700 €**
+- **Prestations de services (BNC)** : **25,6 %** du CA (+1 pt au 01/01/2026) — plafond **77 700 €**
+- **Profession libérale CIPAV** : **23,2 %** du CA — plafond **77 700 €**
 
 Ces cotisations couvrent la maladie-maternité, les indemnités journalières, la CSG-CRDS, la retraite de base et complémentaire, l'invalidité-décès et les allocations familiales. Elles sont déclarées **mensuellement ou trimestriellement** sur autoentrepreneur.urssaf.fr.
 
 **Le versement libératoire de l'IR (VFL)**
 
-Si votre Revenu Fiscal de Référence (RFR) N−2 est inférieur à **27 478 € par part** (2024 pour 2025), vous pouvez opter pour le versement libératoire : vous réglez l'impôt sur le revenu en même temps que les cotisations sociales, à taux fixe :
+Si votre Revenu Fiscal de Référence (RFR) N−2 est inférieur à **29 315 € par part** (2024 pour 2026), vous pouvez opter pour le versement libératoire : vous réglez l'impôt sur le revenu en même temps que les cotisations sociales, à taux fixe :
 
 - **Vente (BIC)** : 1 %
 - **Prestations BIC** : 1,7 %
@@ -57,7 +57,7 @@ Si votre CA dépasse le plafond deux années consécutives, vous basculez automa
     {
       question: "Dois-je choisir le versement libératoire de l'IR ?",
       answer:
-        "Le VFL est intéressant si votre foyer fiscal est imposable : il fige votre imposition à un taux fixe (1 %, 1,7 % ou 2,2 %) sans progressivité. Si vous êtes non-imposable ou proche de la non-imposabilité, le régime classique avec abattement forfaitaire est plus avantageux. Option réservée aux RFR inférieurs à 27 478 € par part.",
+        "Le VFL est intéressant si votre foyer fiscal est imposable : il fige votre imposition à un taux fixe (1 %, 1,7 % ou 2,2 %) sans progressivité. Si vous êtes non-imposable ou proche de la non-imposabilité, le régime classique avec abattement forfaitaire est plus avantageux. Option réservée aux RFR inférieurs à 29 315 € par part.",
     },
     {
       question: "Les cotisations sont-elles calculées sur le CA encaissé ou facturé ?",

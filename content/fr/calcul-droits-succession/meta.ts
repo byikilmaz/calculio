@@ -2,15 +2,15 @@ import type { ToolContent } from "@/lib/types";
 
 export const content: ToolContent = {
   meta: {
-    title: "Calcul Droits de Succession 2025 | Calculio",
+    title: "Calcul Droits de Succession 2026 | Calculio",
     description:
-      "Simulez gratuitement les droits de succession 2025 : abattements selon le lien de parenté (enfant, conjoint, frère), barème progressif et taux effectif.",
+      "Simulez gratuitement les droits de succession 2026 : abattements selon le lien de parenté (enfant, conjoint, frère), barème progressif et taux effectif.",
   },
-  h1: "Calcul Droits de Succession 2025",
+  h1: "Calcul Droits de Succession 2026",
   intro:
     "Estimez les droits de succession à régler selon votre lien de parenté avec le défunt et le montant de votre part. Abattement handicap cumulable et exonération conjoint appliquées.",
   explanation: {
-    title: "Comment sont calculés les droits de succession en 2025 ?",
+    title: "Comment sont calculés les droits de succession en 2026 ?",
     body: `Les **droits de succession** sont un impôt dû lors de la transmission d'un patrimoine au décès d'une personne. Leur calcul suit trois étapes : détermination de la part nette, application d'un **abattement** personnel selon le lien de parenté, puis application d'un **barème progressif** (ou d'un taux fixe) sur la part taxable.
 
 **Étape 1 : la part nette reçue**
@@ -35,7 +35,7 @@ Ces abattements se reconstituent tous les **15 ans** pour les donations : vous p
 
 **Étape 3 : application du barème**
 
-En ligne directe (enfants, parents), le barème 2025 est :
+En ligne directe (enfants, parents), le barème 2026 est :
 
 - Jusqu'à 8 072 € : **5 %**
 - 8 072 € à 12 109 € : **10 %**
