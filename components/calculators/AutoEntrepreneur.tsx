@@ -83,12 +83,12 @@ export function AutoEntrepreneurCalculator() {
                 {
                   value: "servicesBNC",
                   label: "Prestations services (BNC)",
-                  description: "Cotisations 21,1 % · plafond 77 700 €",
+                  description: "Cotisations 25,6 % · plafond 77 700 €",
                 },
                 {
                   value: "liberaleCIPAV",
                   label: "Profession libérale CIPAV",
-                  description: "Cotisations 21,2 % · plafond 77 700 €",
+                  description: "Cotisations 23,2 % · plafond 77 700 €",
                 },
               ]}
             />
